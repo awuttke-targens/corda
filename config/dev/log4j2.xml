@@ -202,6 +202,10 @@
             <AppenderRef ref="Console-ErrorCode-Selector"/>
             <AppenderRef ref="RollingFile-ErrorCode-Appender"/>
         </Logger>
+        <Logger name="sun.net.www.protocol.http.HttpURLConnection" level="trace" additivity="false">
+            <AppenderRef ref="Console-ErrorCode-Selector"/>
+            <AppenderRef ref="RollingFile-ErrorCode-Appender"/>
+        </Logger>
         <Logger name="org.apache.activemq.artemis.core.server" level="warn" additivity="false">
             <AppenderRef ref="Console-ErrorCode-Selector">
                 <Filters>
