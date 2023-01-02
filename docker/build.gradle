@@ -34,7 +34,7 @@ shadowJar {
 
 enum ImageVariant {
     UBUNTU_ZULU("zulu", "Dockerfile", "1.8"),
-    UBUNTU_ZULU_11("zulu", "Dockerfile11", "11"),
+//    UBUNTU_ZULU_11("zulu", "Dockerfile11", "11"),
     AL_CORRETTO("corretto", "DockerfileAL", "1.8"),
     OFFICIAL(UBUNTU_ZULU)
 
