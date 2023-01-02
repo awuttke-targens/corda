@@ -107,3 +107,6 @@ TODO
 
 # gradle-dependx plugin
 .dependx/
+
+# Generated binaries
+bin/
