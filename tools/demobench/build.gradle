@@ -16,7 +16,7 @@ if (JavaVersion.current().isJava9Compatible()) {
 
 ext {
     tornadofx_version = '1.7.15'
-    jna_version = '4.12.1'
+    jna_version = '5.12.1'
     jediterm_version = '2.22'
     pty4j_version = '0.9.6'
 
