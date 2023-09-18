@@ -232,7 +232,7 @@ pipeline {
                 dir(sameAgentFolder) {
                     rtServer(
                             id: 'R3-Artifactory',
-                            url: 'https://software.r3.com/artifactory',
+                            url: 'https://download.corda.net/maven',
                             credentialsId: 'artifactory-credentials'
                     )
                     rtGradleDeployer(

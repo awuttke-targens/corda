@@ -1,5 +1,5 @@
 pluginManagement {
-    ext.artifactory_contextUrl = 'https://software.r3.com/artifactory'
+    ext.artifactory_contextUrl = 'https://download.corda.net/maven'
 
     repositories {
         // Use system environment to activate caching with Artifactory,

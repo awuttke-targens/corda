@@ -61,7 +61,7 @@ enum ImageVariant {
     }
 
     static final String getRepository(Project project) {
-        return project.properties.getOrDefault("docker.image.repository", "corda/corda")
+        return project.properties.getOrDefault("docker.image.repository", "corda/community")
     }
 
     static private final String runTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMddHHmmss"))
