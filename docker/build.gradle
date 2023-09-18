@@ -71,7 +71,7 @@ enum ImageVariant {
     }
 
     Set<Identifier> buildTags(Project project) {
-        final String suffix = project.version.toString().toLowerCase().contains("snapshot") ? runTime : "RELEASE"
+        final String suffix = project.version.toString().toLowerCase().contains("snapshot") ? runTime : "M1-PATCH"
         return [suffix, "latest"].stream().map {
             toAppend -> "${getName(project)}:${toAppend}".toString()
         }.map(Identifier.&fromCompoundString).collect(Collectors.toSet())
